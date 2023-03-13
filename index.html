@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h3>Jugador</h3>
+        <div class="container-numbers--player" id="numbersPlayer">
+          <!-- <div><p>12</p></div>-->
+          <span class="inactive">Ganador</span>
+        </div>
+        <template id="templateNumbersPlayer">
+          <div><p></p></div>
+        </template>
+        <!-- <button id="btnPlayer">Nueva tabla</button> -->
+      </div>
+
+      <div class="contaier-button">
+        <button id="btnNewNumber">Sacar número</button>
+      </div>
+
+      <div class="container">
+        <h3>PC</h3>
+        <div class="container-numbers--pc" id="numbersPc">
+          <!-- <div><p>12</p></div> -->
+          <span class="inactive">Ganador</span>
+        </div>
+        <template id="templateNumbersPc">
+          <div><p></p></div>
+        </template>
+        <!-- <button id="btnPc">nueva tabla</button> -->
+      </div>
+    </section>
+    <section>
+      <div class="container-results" id="results">
+        <!-- <div><p>12</p></div> -->
+      </div>
+      <template id="templateResults">
+        <div><p>12</p></div>
+      </template>
+    </section>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
